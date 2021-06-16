@@ -1,12 +1,15 @@
+import React, { Component } from 'react';
+import Routes from './Routes'
 
-import './App.css';
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
+  render() {
+    return (
+      <div id="app">
+        <Routes />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default App
