@@ -1,0 +1,11 @@
+#logo {
+    position: absolute;
+    width: 9%;
+    height: 18vh;
+    bottom: 4%;
+    left: 2%;
+}
+
+#logoImage {
+    height: 100%;
+}
