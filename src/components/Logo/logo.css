@@ -2,14 +2,15 @@
 
 #logo {
   position: absolute;
-  width: 9%;
-  height: 18vh;
+  width: 10.75%;
+  height: 19vh;
   bottom: 4%;
   left: 2%;
 }
 
 #logoImage {
   height: 100%;
+
 }
 
 #logo div {
@@ -20,65 +21,3 @@
   position: absolute;
   font-size: 1.5em;
 }
-
-#vinylV {
-  left: 12%;
-  top: 30%;
-  transform: rotate(-65deg);
-}
-
-#vinylI {
-  left: 27%;
-  top: 13%;
-  transform: rotate(-39deg);
-}
-
-#vinylN {
-  left: 45%;
-  top: 7%;
-}
-
-#vinylY {
-  right: 22%;
-  top: 14%;
-  transform: rotate(35deg);
-}
-
-#vinylL {
-  right: 12%;
-  top: 30%;
-  transform: rotate(65deg);
-}
-
-#viperV {
-  bottom: 28%;
-  left: 12%;
-  transform: rotate(-120deg);
-}
-
-#viperI {
-  bottom: 13%;
-  left: 27%;
-  transform: rotate(-145deg);
-}
-
-#viperP {
-  bottom: 7%;
-  left: 46%;
-  transform: scale(1, -1);
-}
-
-#viperE {
-  bottom: 13%;
-  right: 27%;
-  transform: rotate(140deg) scaleX(-1);
-}
-
-#viperR {
-  bottom: 28%;
-  right: 12%;
-  transform: rotate(118deg) scaleX(-1);
-}
-
-/* red F30D01 */
-/* yellow FBB920 */

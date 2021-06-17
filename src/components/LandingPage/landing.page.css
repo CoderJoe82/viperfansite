@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 #landingPage {
     position: absolute;
     top: 0;
@@ -5,4 +7,39 @@
     width: 100%;
     height: 100vh;
     background-color: black;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+#welcomeMessage {
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    left: 2%;
+    top: 34%;
+}
+
+#tavernImage {
+    width: 100%;
+}
+
+#staffButton {
+    background: -webkit-linear-gradient(#f30d01, #fbb920);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    filter: drop-shadow(3px 2px 4px #fbb920);
+    width: 50%;
+}
+
+#tavernImageAndButton {
+    position: absolute;
+    right: 9%;
+    top: 25%;
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
