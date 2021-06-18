@@ -10,8 +10,10 @@
 
 .navButtons {
     background: -webkit-linear-gradient(#f30d01, #fbb920);
+    background-clip: text;
     -webkit-background-clip: text;
+    border: none;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 20px;
     filter: drop-shadow(3px 2px 4px #fbb920)
 }

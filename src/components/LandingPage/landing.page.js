@@ -9,31 +9,6 @@ const displayImage = [
     }
 ]
 
-class StaffCarousel extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            currentImageIndex: 0
-        }
-    }
-
-    handlePreviousImage = () => {
-        const lastIndex = displayImage.length - 1;
-        const { currentImageIndex } = this.state;
-        const shouldResetIndex = currentImageIndex === 0;
-        const index = shouldResetIndex ? lastIndex : currentImageIndex - 1
-
-        this.setState({
-            currentImageIndex: index
-        })
-    }
-
-    handleNextImage = () => {
-
-    }
-
-}
-
 class LandingPage extends Component {
   render() {
     return (
