@@ -3,12 +3,6 @@ import "./landing.page.css";
 import Menu from "../Menu/menu";
 import Logo from "../Logo/logo";
 
-const displayImage = [
-    {
-        image: "/rex.image.png"
-    }
-]
-
 class LandingPage extends Component {
   render() {
     return (
@@ -20,7 +14,7 @@ class LandingPage extends Component {
         </h1>
         <div id="tavernImageAndButton">
           <img
-            alt="tavern image"
+            alt="tavern"
             id="tavernImage"
             src={process.env.PUBLIC_URL + "/tavern.image.png"}
           />
