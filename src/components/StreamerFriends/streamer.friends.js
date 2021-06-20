@@ -14,15 +14,15 @@ class StreamerFriends extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            accountAge: ''
+            avatar: ''
         }
     }
 
     componentDidMount() {
-        Axios.get(`${twitchApiBase}accountage/${USER}`)
+        Axios.get(`${twitchApiBase}avatar/${USER}`)
         .then(data => {
             this.setState({
-                accountAge: data.data
+                avatar: data.data
             })
         })
     }
@@ -32,7 +32,7 @@ class StreamerFriends extends Component {
       <div id="streamerFriends">
         <Menu />
         <div id="streamerLinks">
-          <div id="tester">{this.state.accountAge   }</div>
+          <div id="tester"></div>
           <div></div>
         </div>
         <Logo />
