@@ -9,8 +9,7 @@ class LandingPage extends Component {
       <div id="landingPage">
         <Menu />
         <h1 id="welcomeMessage">
-          Welcome to the Scale, deep in the Viper Pit. My name is Viper. I'm
-          your bartender this evening! How are ya, Darlin'?
+          Oh hello there, adventurer! You've found yourself at the Scale. Come on in and have a seat. If you've got the coin, we've got the ale!
         </h1>
         <div id="tavernImageAndButton">
           <img

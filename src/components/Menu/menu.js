@@ -16,11 +16,11 @@ class Menu extends Component {
       >
         <Link
           className="navSpots"
-          to="/aboutMe"
+          to="/yourBartender"
           style={{ textDecoration: "none" }}
         >
           <button className="navButtons">
-            About <br /> Me
+            Your <br /> Bartender
           </button>
         </Link>
         <Link

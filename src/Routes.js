@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LandingPage from './components/LandingPage/landing.page'
 import SocialMedia from './components/SocialMedia/social.media'
 import StreamerFriends from './components/StreamerFriends/streamer.friends'
-import AboutMe from './components/AboutMe/about.me.page'
+import YourBartender from './components/YourBartender/your.bartender.page'
 
 class Routes extends Component {
     render() {
@@ -13,7 +13,7 @@ class Routes extends Component {
                     <Route path = "/" exact component = {LandingPage}/>
                     <Route path = "/streamerFriends" exact component = {StreamerFriends}  />
                     <Route path = "/socialMedia" exact component = {SocialMedia} />
-                    <Route path = "/aboutMe" exact component = {AboutMe} />
+                    <Route path = "/yourBartender" exact component = {YourBartender} />
                 </Switch>
             </Router>
         )
