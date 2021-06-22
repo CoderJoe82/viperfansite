@@ -55,6 +55,7 @@ class LandingPage extends Component {
           <p id = "hostText">Your Host: <br /> Chuck Beary</p>
           <p id = "securityText">Your Security: <br />rex</p>
         </div>
+        <p id = "disclaimerText">***All images used are either accredited, belong to their respective owners on twitch, or are free for personal use with no restrictions***</p>
 
         {/* image of tavern is "Mighty Oak Tavern" by Lucas Staniec Art - https://www.artstation.com/lucasstaniec */}
         <Logo />

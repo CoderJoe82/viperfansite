@@ -95,3 +95,9 @@ display: none;
     justify-content: space-between;
     align-items: center;
 }
+
+#disclaimerText {
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+}

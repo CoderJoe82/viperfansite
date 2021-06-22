@@ -8,7 +8,7 @@ class Menu extends Component {
     $("#tavernButton").fadeOut(100);
     $("#staffImage").fadeOut(100);
     $("#hostText").fadeOut(100);
-    $("#securityText").fadeOut(100); 
+    $("#securityText").fadeOut(100);
     setTimeout(() => {
       $("#staffButton").fadeIn();
       $("#tavernImage").fadeIn();
@@ -32,8 +32,9 @@ class Menu extends Component {
           style={{ textDecoration: "none" }}
         >
           <img
-            src={process.env.PUBLIC_URL + "flame.image.png"}
-            id="leftFlame" alt = "flame1"
+            src={process.env.PUBLIC_URL + "/flame.image.png"}
+            id="leftFlame"
+            alt="flame1"
           />
           <button className="navButtons">
             Your <br /> Bartender
@@ -45,8 +46,9 @@ class Menu extends Component {
           style={{ textDecoration: "none" }}
         >
           <img
-            src={process.env.PUBLIC_URL + "flame.image.png"}
-            id="midLeftFlame" alt = "flame2"
+            src={process.env.PUBLIC_URL + "/flame.image.png"}
+            id="midLeftFlame"
+            alt="flame2"
           />
           <button className="navButtons">
             Social <br /> Media
@@ -58,8 +60,9 @@ class Menu extends Component {
           style={{ textDecoration: "none" }}
         >
           <img
-            src={process.env.PUBLIC_URL + "flame.image.png"}
-            id="midRightFlame" alt = "flame3"
+            src={process.env.PUBLIC_URL + "/flame.image.png"}
+            id="midRightFlame"
+            alt="flame3"
           />
 
           <button className="navButtons">
@@ -68,8 +71,9 @@ class Menu extends Component {
         </Link>
         <Link className="navSpots" to="/" style={{ textDecoration: "none" }}>
           <img
-            src={process.env.PUBLIC_URL + "flame.image.png"}
-            id="rightFlame" alt = "flame4"
+            src={process.env.PUBLIC_URL + "/flame.image.png"}
+            id="rightFlame"
+            alt="flame4"
           />
 
           <button
