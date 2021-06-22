@@ -41,15 +41,6 @@ class Menu extends Component {
             Scale <br /> Partners
           </button>
         </Link>
-        <Link
-          className="navSpots"
-          to="/scalePatrons"
-          style={{ textDecoration: "none" }}
-        >
-          <button className="navButtons">
-            Scale <br /> Patrons
-          </button>
-        </Link>
         <Link className="navSpots" to="/" style={{ textDecoration: "none" }}>
           <button className="navButtons">
             Back <br /> Home
