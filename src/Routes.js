@@ -10,7 +10,7 @@ class Routes extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route path = "/" exact component = {LandingPage}/>
+                    <Route path = "/viperfansite" exact component = {LandingPage}/>
                     <Route path = "/scalePartners" exact component = {ScalePartners}  />
                     <Route path = "/socialMedia" exact component = {SocialMedia} />
                     <Route path = "/yourBartender" exact component = {YourBartender} />

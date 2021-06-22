@@ -98,6 +98,7 @@ display: none;
 
 #disclaimerText {
     position: absolute;
+    left: 2%;
     bottom: 2%;
     text-align: center;
 }

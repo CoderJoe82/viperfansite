@@ -69,7 +69,7 @@ class Menu extends Component {
             Scale <br /> Partners
           </button>
         </Link>
-        <Link className="navSpots" to="/" style={{ textDecoration: "none" }}>
+        <Link className="navSpots" to="/viperfansite" style={{ textDecoration: "none" }}>
           <img
             src={process.env.PUBLIC_URL + "/flame.image.png"}
             id="rightFlame"
