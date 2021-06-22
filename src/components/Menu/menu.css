@@ -15,5 +15,37 @@
     border: none;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
-    filter: drop-shadow(3px 2px 4px #fbb920)
+    filter: drop-shadow(3px 2px 4px #fbb920);
+    width: 150%;
+}
+
+#leftFlame {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    bottom: 12%;
+}
+
+#midLeftFlame {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    bottom: 12%;
+    left: 34%;
+}
+
+#midRightFlame {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    bottom: 12%;
+    right: 31%;
+}
+
+#rightFlame {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    bottom: 12%;
+    right: 7%;
 }

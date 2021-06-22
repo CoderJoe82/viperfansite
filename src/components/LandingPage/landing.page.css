@@ -19,8 +19,28 @@
     top: 34%;
 }
 
-#tavernImage {
-    width: 100%;
+
+
+#staffImage {
+    height: 80%;
+display: none;
+}
+
+#hostText, #securityText {
+    position: absolute;
+    display: none;
+}
+
+#hostText {
+    bottom: 25%;
+    left: 26%;
+    text-align: center;
+}
+
+#securityText {
+    bottom: 25%;
+    right: 26%;
+    text-align: center;
 }
 
 #staffButton {
@@ -31,16 +51,47 @@
     font-size: 20px;
     filter: drop-shadow(3px 2px 4px #fbb920);
     width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 5%;
+    left: 17%;
+    z-index: 100000000
+}
+
+#tavernButton {
+    background: -webkit-linear-gradient(#f30d01, #fbb920);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    filter: drop-shadow(3px 2px 4px #fbb920);
+    width: 50%;
+    height: 20%;
+    display: none;
 }
 
 #tavernImageAndButton {
     position: absolute;
     right: 9%;
     top: 25%;
-    height: 60%;
+    height: 55%;
+    width: 50%;
+}
+
+#tavernImage {
+    height: 70%;
+    position: absolute;
+    text-align: center;
+}
+
+#staffImageAndButton {
+    position: absolute;
+    right: 9%;
+    top: 25%;
+    height: 50%;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
