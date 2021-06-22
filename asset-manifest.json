@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/viperfansite/static/css/main.bb687c4c.chunk.css",
-    "main.js": "/viperfansite/static/js/main.e35cf57d.chunk.js",
-    "main.js.map": "/viperfansite/static/js/main.e35cf57d.chunk.js.map",
+    "main.css": "/viperfansite/static/css/main.e5032691.chunk.css",
+    "main.js": "/viperfansite/static/js/main.f9bc3783.chunk.js",
+    "main.js.map": "/viperfansite/static/js/main.f9bc3783.chunk.js.map",
     "runtime-main.js": "/viperfansite/static/js/runtime-main.accca4ae.js",
     "runtime-main.js.map": "/viperfansite/static/js/runtime-main.accca4ae.js.map",
     "static/js/2.13744f98.chunk.js": "/viperfansite/static/js/2.13744f98.chunk.js",
     "static/js/2.13744f98.chunk.js.map": "/viperfansite/static/js/2.13744f98.chunk.js.map",
     "index.html": "/viperfansite/index.html",
-    "static/css/main.bb687c4c.chunk.css.map": "/viperfansite/static/css/main.bb687c4c.chunk.css.map",
+    "static/css/main.e5032691.chunk.css.map": "/viperfansite/static/css/main.e5032691.chunk.css.map",
     "static/js/2.13744f98.chunk.js.LICENSE.txt": "/viperfansite/static/js/2.13744f98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.accca4ae.js",
     "static/js/2.13744f98.chunk.js",
-    "static/css/main.bb687c4c.chunk.css",
-    "static/js/main.e35cf57d.chunk.js"
+    "static/css/main.e5032691.chunk.css",
+    "static/js/main.f9bc3783.chunk.js"
   ]
 }
