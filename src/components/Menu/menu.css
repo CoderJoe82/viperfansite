@@ -49,3 +49,7 @@
     bottom: 12%;
     right: 7%;
 }
+
+.navSpots, .navButtons {
+    cursor: pointer;
+}
